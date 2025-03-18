@@ -1,0 +1,18 @@
+{
+  "name": "miktex-proxy-api",
+  "version": "1.0.0",
+  "description": "HTTPS proxy for MikTeX PDF service",
+  "main": "proxy-api.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2"
+  },
+  "scripts": {
+    "start": "node proxy-api.js",
+    "dev": "nodemon proxy-api.js"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
